@@ -12,5 +12,5 @@
   - `script.js` (JavaScript extracted from HTML)
   - `images/ani.jpg` (photo moved)
   - `music/love-song.mp3` (song moved)
-- [ ] Commit and push the restructured project to GitHub
+- [x] Commit and push the restructured project to GitHub
 
