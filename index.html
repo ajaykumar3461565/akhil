@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Wifey Day</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hearts-layer" id="heartsLayer" aria-hidden="true"></div>
+  <div class="confetti-layer" id="confettiLayer" aria-hidden="true"></div>
+  <div class="screen-glow" aria-hidden="true"></div>
+
+  <main>
+    <section class="page active" id="page1" aria-label="Welcome page">
+      <div class="welcome-backdrop"></div>
+      <div class="page-shell">
+        <h1 class="hero-title">Happy Wifey Day ❤️</h1>
+        <button class="heart-button" id="heartButton" type="button" aria-label="Open the surprise">
+          <span class="heart-shape"></span>
+          <span class="spark-burst" aria-hidden="true">
+            <span class="spark" style="--i: 1;"></span>
+            <span class="spark" style="--i: 2;"></span>
+            <span class="spark" style="--i: 3;"></span>
+            <span class="spark" style="--i: 4;"></span>
+            <span class="spark" style="--i: 5;"></span>
+            <span class="spark" style="--i: 6;"></span>
+            <span class="spark" style="--i: 7;"></span>
+            <span class="spark" style="--i: 8;"></span>
+            <span class="spark" style="--i: 9;"></span>
+            <span class="spark" style="--i: 10;"></span>
+            <span class="spark" style="--i: 11;"></span>
+            <span class="spark" style="--i: 12;"></span>
+          </span>
+        </button>
+        <p class="subtext">Press my heart to continue ❤️</p>
+      </div>
+    </section>
+
+    <section class="page" id="page2" aria-label="Love letter">
+      <div class="letter-hearts" id="letterHearts" aria-hidden="true"></div>
+      <div class="page-shell">
+        <article class="letter-card">
+          <div class="letter-inner">
+            <h2 class="letter-title">My Greatest blessings 🥹💗💗🧿🧿</h2>
+            <p class="letter-body">Happy wifey Day, my love. ❤️ 
+
+Thank you for everything my love 🥹💗💗🧿🧿 since the day one you always proved me that even i deserve to be loved 🥹💗💗 
+
+You are my divine blessing that has bestowed upon me 🥺🥺💗💗 ur the greatest thing that has ever happened to me 🥺💗💗🧿🧿 ur my everything my love more than everything my love 🥺💗💗🧿🧿 
+
+i hope you will love this short gift from my side 🥺💗💗 
+
+Chahe kuch bhi ho jaaye meri bachhi forever and ever ham dono hamesha saath rahenge 🥺💗💗🧿🧿 you will always have me by ur side till my last breath 🥺💗💗🧿🧿 you deserve everything that's why I exist 🥺💗💗🧿🧿♾️ 
+
+Vo kehte hai na jab bhagwan ne tumhe banaya tha uske bachhe hue mitti se mera Dil banaya gaya hoga wahi hu me ani 🥺🥺💗💗🧿🧿 ham dono ek hai ani ek dusre ke greatest blessing hai 🥺💗💗🧿🧿 
+
+Thank you for always being by my side thank you for changing me thank you for giving me a purpose in my life 🥺🥺💗💗🧿🧿 
+
+I love you today, tomorrow, and forever 🥺💗💗🧿🧿♾️ 
+
+With all my love, I am urs and ur mine forever and ever 🥺💗💗🧿🧿♾️</p>
+          </div>
+        </article>
+        <button class="glow-button" id="toLovePage" type="button">Continue ❤️</button>
+      </div>
+    </section>
+
+    <section class="page" id="page3" aria-label="I love you page">
+      <div class="love-backdrop"></div>
+      <div class="center-burst" id="centerBurst" aria-hidden="true"></div>
+      <div class="page-shell">
+        <h2 class="love-title">I LOVE YOU ANI ❤️</h2>
+        <div class="typing-box" aria-live="polite">
+          <p class="typing-line" data-text="You are my everything."></p>
+          <p class="typing-line" data-text="My forever."></p>
+          <p class="typing-line" data-text="My happiness."></p>
+          <p class="typing-line" data-text="My home."></p>
+        </div>
+        <button class="glow-button" id="toMemoryPage" type="button">One Last Surprise ❤️</button>
+      </div>
+    </section>
+
+    <section class="page" id="page4" aria-label="Memory page">
+      <div class="memory-backdrop"></div>
+      <div class="memory-hearts" id="memoryHearts" aria-hidden="true"></div>
+      <div class="sunflower-rain" id="sunflowerRain" aria-hidden="true"></div>
+      <div class="sun-follower" id="sunFollower" aria-hidden="true"></div>
+      <div class="memory-layout">
+        <figure class="photo-frame">
+          <img
+            class="memory-photo"
+            id="memoryPhoto"
+            src="images/ani.jpg"
+            alt="Ani's photo">
+        </figure>
+
+        <div class="memory-copy">
+          <h2 class="ending-title">Happy Wifey Day, My Love ❤️</h2>
+          <div class="nidhi-heart" aria-hidden="true">
+            <span class="nidhi-heart-shape"></span>
+            <span class="nidhi-heart-text">ANI</span>
+          </div>
+          <div class="audio-wrap">
+            <audio id="loveSong" controls preload="auto">
+              <source src="music/love-song.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+            <p class="music-status" id="musicStatus">The music will try to play automatically when this page opens.</p>
+          </div>
+          <p class="final-message">Forever Yours ❤️
+Happy Wifey Day, Ani.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
